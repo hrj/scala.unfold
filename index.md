@@ -11,7 +11,7 @@ println("Hello world")
 [Scala](http://scala-lang.org/) is a programming language created by Martin Odersky. This guide is a gentle
 introduction to the Scala language.
 
-## Intended Audience
+### Intended Audience
 If you are familiar with basic concepts in computer science, familiar with atleast
 one programming language (doesn't matter which), and want to quickly get upto speed with Scala,
 then you are the intended audience of this little guide.
