@@ -23,7 +23,7 @@
         <div class="container">
           <a class="brand" href="index.html">scala.unfold</a>
           <span class="navbar-text">{{ page.title }}</span>
-          <ul class="nav">
+          <ul class="nav pull-right">
             {% if page.prev %}
               <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
             {% endif %}
@@ -31,13 +31,6 @@
               <li><a href="{{ page.next | replace:'.md','.html' }}">Next&raquo;</a></li>
             {% endif %}
           </ul>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
