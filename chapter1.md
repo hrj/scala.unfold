@@ -1,11 +1,13 @@
 ---
 layout: chapter
-title: Introduction to Scala
+title: Introduction
 next: chapter2.md
 ---
 
-== The Language Landscape ==
+# Introduction
 
-== Why Scala? ==
+## The Language Landscape
 
-== Features at a glance ==
+## Why Scala?
+
+## Features at a glance
