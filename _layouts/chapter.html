@@ -18,10 +18,11 @@
 
   <body>
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container fixed">
-          <h3><a href="index.html">{{ page.title }}</a></h3>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">scala.unfold</a>
+          <h3>{{ page.title }}</h3>
           <ul class="nav secondary-nav">
             {% if page.prev %}
               <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
@@ -30,7 +31,13 @@
               <li><a href="{{ page.next | replace:'.md','.html' }}">Next&raquo;</a></li>
             {% endif %}
           </ul>
-
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
