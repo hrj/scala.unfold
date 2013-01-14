@@ -16,8 +16,8 @@ If you are familiar with basic concepts in computer science, familiar with atlea
 one programming language (doesn't matter which), and want to quickly get upto speed with Scala,
 then you are the intended audience of this little guide.
 
-If you don't know any programming language yet then, in the author's humble opinion, it is best to learn
-a simpler language before jumping in to Scala.
+If you don't know any programming language yet, it is best to learn
+a simpler language before jumping in to Scala, in the author's humble opinion.
 
 ## Table of Contents
 1. [Introduction](chapter1)
