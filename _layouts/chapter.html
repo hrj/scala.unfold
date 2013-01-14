@@ -20,22 +20,24 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <a class="brand" href="index.html">scala.unfold</a>
-        <p class="navbar-text">{{ page.title }}</p>
-        <ul class="nav">
-          {% if page.prev %}
-            <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next | replace:'.md','.html' }}">Next&raquo;</a></li>
-          {% endif %}
-        </ul>
-        <div class="nav-collapse collapse">
+        <div class="container">
+          <a class="brand" href="index.html">scala.unfold</a>
+          <p class="navbar-text">{{ page.title }}</p>
           <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            {% if page.prev %}
+              <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
+            {% endif %}
+            {% if page.next %}
+              <li><a href="{{ page.next | replace:'.md','.html' }}">Next&raquo;</a></li>
+            {% endif %}
           </ul>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
