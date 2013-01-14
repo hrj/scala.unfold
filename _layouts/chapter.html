@@ -22,8 +22,8 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="index.html">scala.unfold</a>
-          <span>{{ page.title }}</span>
-          <ul class="nav secondary-nav">
+          <p class="navbar-text">{{ page.title }}</p>
+          <ul class="nav">
             {% if page.prev %}
               <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
             {% endif %}
