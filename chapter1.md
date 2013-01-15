@@ -52,7 +52,7 @@ is thus suitable for writing system programs or writing performance critical sec
 thus it is difficult to write and maintain very large applications in it.
 
 For most purposes `C` is a statically and strongly typed language. However, it allows pointer conversions, pointer arithmetic
-and low level access to memory, and when these are used, it becomes a dynamically and weakly typed language!
+and low level access to memory, and when these are used, it becomes a weakly typed language!
 
 ### Java
 
