@@ -6,8 +6,7 @@ next: chapter2.md
 
 # Introduction
 
-Scala is a multi-paradigm language that compiles to JVM (Java Virtual Machine) bytecode, and hence programs written in Scala
-are portable across systems that run the JVM.
+Before diving into Scala, let's step back a bit and survey the programming language landscape in brief.
 
 ## The Language Landscape
 
