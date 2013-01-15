@@ -22,7 +22,7 @@ a simpler language before jumping in to Scala, in the author's humble opinion.
 ## Table of Contents
 1. [Introduction](chapter1)
 2. [Getting Started](chapter2)
-3. [Basics](chapter2)
-4. [Object Oriented Programming](chapter2)
-5. [Functional programming](chapter2)
-6. [Generics](chapter2)
+3. [Basics](chapter3)
+4. [Object Oriented Programming](chapter4)
+5. [Functional programming](chapter5)
+6. [Generics](chapter6)
