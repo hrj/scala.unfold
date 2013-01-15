@@ -11,8 +11,8 @@ Before diving into Scala, let's step back a bit and survey the programming langu
 ## The Language Landscape
 
 There are hundreds of programming languages in use today and new ones are being designed all the time. Each language
-has its own set of tradeoffs and is suitable for a specific subset of applications. We will survey some of
-the popular languages to understand where Scala stands among these.
+has its own set of tradeoffs and is suitable for a specific subset of applications. Let's look at some
+popular languages, but before that, some definitions.
 
 ### Expression Types
 
@@ -36,13 +36,12 @@ In `statically typed` languages, the type of a cell does not change over the cou
 for such a language is better able to reason about the program and its types; it is able to catch type
 related errors at compile time and can also do a better job at optimisation.
 
-Statically typed languages generally outperform the dynamically typed languages by a factor of varying from
-[4 to 50](http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php), and it is generally
-easier to write large programs in statically typed languages, because the compiler can automatically perform the hard
+Statically typed languages generally outperform the dynamically typed languages by [a factor of 4 to 50](http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php),
+and it is generally easier to write large programs in these languages, because the compiler can automatically perform the hard
 work of type verification.
 
-Further, some statically typed languages can do type inference automatically, thus reducing the burden of
-specifying a type annotation for every expressions / cell.
+Further, some statically typed languages can infer the types automatically, thus reducing the burden of
+specifying type annotations for every expressions / cell.
 
 In the context of the above, let's examine some popular languages now.
 
