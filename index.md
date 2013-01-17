@@ -21,7 +21,7 @@ a simpler language before jumping in to Scala, in the author's humble opinion.
 
 ## Table of Contents
 1. [Introduction](chapter1)
-2. [Getting Started](chapter2)
+2. [Getting Started with Scala](chapter2)
 3. [Basics](chapter3)
 4. [Object Oriented Programming](chapter4)
 5. [Functional programming](chapter5)
