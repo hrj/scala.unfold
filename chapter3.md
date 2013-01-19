@@ -12,6 +12,7 @@ Using REPL
 ## Defining values
 
 Simple expressions:
+
 ``` scala
 val a = 10
 val b = a * 20
@@ -21,6 +22,7 @@ Error if:
 a = 30
 
 Blocks
+
 ```
 val c = {
   val d = a * a
