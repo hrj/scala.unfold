@@ -24,7 +24,7 @@ a = 30
 
 Blocks
 
-```
+``` scala
 val c = {
   val d = a * a
   d / 2
@@ -33,14 +33,14 @@ val c = {
 
 ## Defining variables
 
-```
+``` scala
 var v = 30
 v = 40
 ```
 
 ## Defining functions
 
-```
+``` scala
 def square(x:Int) = x * x
 ```
 
