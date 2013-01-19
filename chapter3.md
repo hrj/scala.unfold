@@ -7,7 +7,8 @@ next: chapter4.md
 
 # Basics
 
-Using REPL
+This chapter is best tried out in Scala REPL. See [chapter 1](chapter1) to know
+more about REPL.
 
 ## Defining values
 
