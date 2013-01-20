@@ -1,25 +1,21 @@
 ---
 layout: chapter
-title: Introduction
+title: The Language Landscape
 next: chapter2.md
 ---
 
-# Introduction
+There are hundreds of programming languages in use today and new ones are being designed all the time. No language is
+perfect, that is, no language is suitable for every programming task. Each language
+has its own set of tradeoffs and is suitable for a specific subset of applications. Before diving into Scala,
+let's step back a bit and survey the programming language landscape.
 
-Before diving into Scala, let's step back a bit and survey the programming language landscape.
+You can skim through this chapter if you are already familiar with a couple of programming languages.
 
 Please note that this is not intended to be a "war of the languages", and the analysis offered here is
 possibly subjective. The intention is purely to provide a background to the newbie programmer,
 before setting off deep into Scala land.
 
-## The Language Landscape
-
-There are hundreds of programming languages in use today and new ones are being designed all the time. No language is
-perfect, that is, no language is suitable for every programming task. Each language
-has its own set of tradeoffs and is suitable for a specific subset of applications. Let's look at some
-popular languages to understand how Scala fits into this language ecosystem.
-
-But before that, some definitions. You can skim through these if you are already familiar with half a dozen languages.
+But before that, some definitions.
 
 ### Expression Types
 
