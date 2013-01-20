@@ -12,9 +12,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/scala.unfold/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/scala.unfold/css/monokai.css">
-    <link rel="stylesheet" href="/scala.unfold/css/unfold.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/monokai.css">
+    <link rel="stylesheet" href="css/unfold.css">
 
   </head>
 
@@ -24,7 +24,7 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="index.html">scala.unfold</a>
-          <span class="navbar-text">{{ page.title }}</span>
+          <span class="navbar-text chapter-title">[ {{ page.title }} ]</span>
           <ul class="nav pull-right">
             {% if page.prev %}
               <li><a href="{{ page.prev | replace:'.md','.html' }}">&laquo;Previous</a></li>
@@ -33,6 +33,7 @@
               <li><a href="{{ page.next | replace:'.md','.html' }}">Next&raquo;</a></li>
             {% endif %}
           </ul>
+          <span class="label label-info">Work in Progress</span>
         </div>
       </div>
     </div>

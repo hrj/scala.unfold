@@ -26,3 +26,6 @@ a simpler language before jumping in to Scala, in the author's humble opinion.
 4. [Object Oriented Programming](chapter4)
 5. [Functional programming](chapter5)
 6. [Generics](chapter6)
+
+## Work in Progress
+Note that this book is still a work in progress.
