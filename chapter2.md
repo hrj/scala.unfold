@@ -26,7 +26,7 @@ This offers a convenient way to learn Scala and is described in detail below.
 # Running Scala programs
 
 ## REPL
-The Read-Eval-Print-Loop (REPL) offers an interative way to enter Scala expressions and to evaluate them instantly. The result
+The Read-Eval-Print-Loop (REPL) offers an interactive way to enter Scala expressions and to evaluate them instantly. The result
 of evaluting an expression is printed below the expression and can be reused in other expressions.
 
 To start the REPL, execute the `scala` program with no arguments. It will print something like:
